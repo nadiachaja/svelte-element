@@ -1,5 +1,5 @@
 <script>
-    let { as = "p", children, ...restProps } = $props();
+    let { as = "p", ...restProps } = $props();
 </script>
 
 <svelte:element this={as} {...restProps}>
